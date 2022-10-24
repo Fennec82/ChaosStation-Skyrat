@@ -29,10 +29,17 @@
 
 	mail_goodies = list(
 		/obj/item/healthanalyzer/advanced = 15,
+<<<<<<< Updated upstream
 		/obj/item/scalpel/advanced = 6,
 		/obj/item/retractor/advanced = 6,
 		/obj/item/cautery/advanced = 6,
 		/obj/item/reagent_containers/cup/bottle/formaldehyde = 6,
+=======
+		/obj/item/scalpel/advanced = 7, //Chaosstation edit - 7
+		/obj/item/retractor/advanced = 7, //Chaosstation edit - 7
+		/obj/item/cautery/advanced = 7, //Chaosstation edit - 7
+		/obj/item/reagent_containers/glass/bottle/formaldehyde = 6,
+>>>>>>> Stashed changes
 		/obj/effect/spawner/random/medical/organs = 5,
 		/obj/effect/spawner/random/medical/memeorgans = 1
 	)

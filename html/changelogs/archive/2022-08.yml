@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2022-08-01:
   GoldenAlpharex:
   - bugfix: Security Records should no longer have to apply prefs to a random dummy
@@ -1243,3 +1244,9 @@
       room, next to Cryo.
   Zonespace27:
   - bugfix: Local servers should no longer have streams of endless title errors
+=======
+2022-08-29:
+  SkyratBot:
+  - bugfix: fixes the piping of the ORD lab.
+  - bugfix: changes a pump subclass.
+>>>>>>> Stashed changes

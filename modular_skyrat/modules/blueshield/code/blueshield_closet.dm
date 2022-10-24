@@ -14,3 +14,4 @@
 	new /obj/item/restraints/handcuffs(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses(src)
 	new /obj/item/clothing/suit/hooded/wintercoat/blueshield(src)
+	new /obj/item/storage/medkit/tactical/blueshield(src) //Chaosstation edit - Medkit

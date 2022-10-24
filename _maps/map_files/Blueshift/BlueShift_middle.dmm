@@ -20098,6 +20098,9 @@
 /obj/item/storage/medkit/brute{
 	pixel_x = -2
 	},
+/obj/item/stock_parts/cell/medigun/upgraded,
+/obj/item/stock_parts/cell/medigun/upgraded,
+/obj/item/gun/energy/cell_loaded/medigun/upgraded,
 /turf/open/floor/iron,
 /area/station/security/medical)
 "ghX" = (
@@ -61213,7 +61216,7 @@
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "tTm" = (
-/obj/machinery/stasis{
+/obj/machinery/sleeper{
 	dir = 8
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{

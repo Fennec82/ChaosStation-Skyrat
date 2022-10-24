@@ -6427,6 +6427,20 @@
 	dir = 9
 	},
 /area/station/commons/dorms)
+"bEd" = (
+/obj/effect/turf_decal/stripes/white/line{
+	color = "#52B4E9";
+	dir = 6;
+	name = "blue line"
+	},
+/obj/effect/turf_decal/tile/blue/full,
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/open/floor/iron/shuttle/evac{
+	icon_state = "floormed"
+	},
+/area/station/medical/cryo)
 "bEf" = (
 /obj/structure/frame/computer,
 /obj/item/shard,
@@ -8654,7 +8668,7 @@
 	name = "medbay camera";
 	network = list("ss13","medbay")
 	},
-/obj/machinery/stasis{
+/obj/machinery/sleeper{
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery/white{
@@ -10212,6 +10226,8 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/item/book/manual/wiki/surgery,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "cZA" = (
@@ -11285,6 +11301,7 @@
 "dpZ" = (
 /obj/item/beacon,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mob_spawn/corpse/human/assistant,
 /turf/open/floor/iron/airless,
 /area/station/science/ordnance/bomb)
 "dqk" = (
@@ -13244,8 +13261,8 @@
 	pixel_x = -24
 	},
 /obj/machinery/light/directional/west,
-/obj/machinery/stasis{
-	dir = 1
+/obj/machinery/sleeper{
+	dir = 4
 	},
 /turf/open/floor/iron/shuttle/evac{
 	icon_state = "floormed"
@@ -21067,6 +21084,8 @@
 	dir = 1
 	},
 /obj/machinery/status_display/evac/directional/north,
+/obj/item/book/manual/wiki/surgery,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "gWH" = (
@@ -26034,6 +26053,7 @@
 /obj/item/radio/intercom/directional/east,
 /obj/item/folder/white,
 /obj/item/pen,
+/obj/item/storage/medkit/surgery,
 /turf/open/floor/iron/shuttle/evac{
 	icon_state = "floormed"
 	},
@@ -26210,6 +26230,7 @@
 /obj/structure/rack/shelf,
 /obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/medical/coldroom)
 "iLm" = (
@@ -27004,10 +27025,7 @@
 /area/station/science/xenobiology)
 "iWW" = (
 /obj/machinery/iv_drip,
-/obj/structure/bed/pod{
-	desc = "An old medical bed, just waiting for replacement with something up to date.";
-	name = "medical bed"
-	},
+/obj/machinery/stasis,
 /obj/machinery/defibrillator_mount/directional/north,
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -27188,6 +27206,7 @@
 	},
 /obj/structure/rack/shelf,
 /obj/item/radio/intercom/directional/north,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/medical/coldroom)
 "iZc" = (
@@ -31372,10 +31391,7 @@
 /area/station/medical/medbay/central)
 "kzo" = (
 /obj/machinery/iv_drip,
-/obj/structure/bed/pod{
-	desc = "An old medical bed, just waiting for replacement with something up to date.";
-	name = "medical bed"
-	},
+/obj/machinery/stasis,
 /obj/machinery/defibrillator_mount/directional/south,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -33265,6 +33281,7 @@
 	dir = 6
 	},
 /obj/structure/cable,
+/mob/living/silicon/robot/shell,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "lip" = (
@@ -36176,6 +36193,10 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/structure/closet/secure_closet/security/med,
+/obj/item/clothing/head/bio_hood/security,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/medical)
 "mdu" = (
@@ -39955,6 +39976,8 @@
 /area/station/maintenance/department/medical)
 "nvr" = (
 /obj/structure/closet/secure_closet/security/science,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/science/research)
 "nvy" = (
@@ -42987,6 +43010,7 @@
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -16
 	},
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "ozS" = (
@@ -45542,9 +45566,8 @@
 /area/station/science/robotics)
 "psp" = (
 /obj/machinery/iv_drip,
-/obj/structure/bed/pod{
-	desc = "An old medical bed, just waiting for replacement with something up to date.";
-	name = "medical bed"
+/obj/machinery/stasis{
+	dir = 1
 	},
 /obj/machinery/defibrillator_mount/directional/south,
 /obj/effect/turf_decal/tile/blue,
@@ -48333,6 +48356,8 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
+/obj/item/book/manual/wiki/surgery,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "qrb" = (
@@ -52073,7 +52098,7 @@
 /area/station/commons/dorms)
 "rHz" = (
 /obj/machinery/light/directional/west,
-/obj/machinery/stasis{
+/obj/machinery/sleeper{
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery/white{
@@ -53397,9 +53422,8 @@
 /area/station/science/power_station)
 "sgh" = (
 /obj/machinery/iv_drip,
-/obj/structure/bed/pod{
-	desc = "An old medical bed, just waiting for replacement with something up to date.";
-	name = "medical bed"
+/obj/machinery/stasis{
+	dir = 1
 	},
 /obj/machinery/defibrillator_mount/directional/north,
 /obj/effect/turf_decal/tile/blue,
@@ -53673,6 +53697,7 @@
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/hud/health,
+/obj/item/book/manual/wiki/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "skz" = (
@@ -54060,6 +54085,7 @@
 	dir = 8
 	},
 /obj/structure/extinguisher_cabinet/directional/south,
+/mob/living/silicon/robot/shell,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "soL" = (
@@ -56329,6 +56355,7 @@
 /obj/item/folder/white,
 /obj/item/pen,
 /obj/effect/turf_decal/tile/blue/full,
+/obj/item/storage/medkit/surgery,
 /turf/open/floor/iron/shuttle/evac{
 	icon_state = "floormed"
 	},
@@ -61608,6 +61635,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
 	dir = 10
 	},
+/mob/living/silicon/robot/shell,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "uTR" = (
@@ -62537,6 +62565,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /obj/item/radio/intercom/directional/south,
 /obj/structure/cable,
+/mob/living/silicon/robot/shell,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "vmW" = (
@@ -69650,6 +69679,7 @@
 /area/station/science/genetics)
 "xLk" = (
 /obj/structure/table,
+/obj/item/surgical_processor,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
@@ -111626,7 +111656,7 @@ vsx
 yad
 lzA
 oXS
-jss
+bEd
 iGX
 upb
 hqT

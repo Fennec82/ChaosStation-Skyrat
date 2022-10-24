@@ -35,7 +35,7 @@ map icebox
 endmap
 
 map tramstation
-	minplayers 35
+	minplayers 1
 endmap
 
 map runtimestation
@@ -47,7 +47,7 @@ endmap
 ##SKYRAT MAPS##
 
 map blueshift
-	minplayers 50
+	minplayers 0
 	votable
 endmap
 

@@ -5704,6 +5704,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 6
 	},
+/mob/living/silicon/robot/shell,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "cfq" = (
@@ -7620,6 +7621,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
+"cJB" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/space/openspace,
+/area/station/solars/port/aft)
 "cJD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
@@ -9115,6 +9122,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 10
 	},
+/mob/living/silicon/robot/shell,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "dnQ" = (
@@ -13627,6 +13635,7 @@
 	network = list("ss13","medbay")
 	},
 /obj/machinery/vending/wallmed/directional/east,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "eRq" = (
@@ -14935,6 +14944,7 @@
 /obj/item/computer_hardware/hard_drive/portable/medical,
 /obj/item/computer_hardware/hard_drive/portable/medical,
 /obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/item/lazarus_injector,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
 "foF" = (
@@ -14942,6 +14952,10 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 10
 	},
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/construction/plumbing,
@@ -17179,6 +17193,7 @@
 /area/station/service/hydroponics/garden)
 "gil" = (
 /obj/structure/closet/secure_closet/research_director,
+/obj/item/lazarus_injector,
 /turf/open/floor/iron/cafeteria{
 	dir = 5
 	},
@@ -18858,11 +18873,7 @@
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/tram/left)
 "gNE" = (
-/obj/structure/bed/pod{
-	desc = "An old medical bed, just waiting for replacement with something up to date.";
-	dir = 8;
-	name = "medical bed"
-	},
+/obj/machinery/stasis,
 /obj/machinery/defibrillator_mount/directional/east,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -23041,6 +23052,7 @@
 	pixel_x = 11;
 	pixel_y = 7
 	},
+/obj/item/reagent_containers/glass/bottle/mutagen,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "ioE" = (
@@ -24380,7 +24392,7 @@
 /turf/open/floor/eighties/red,
 /area/station/commons/fitness/recreation/entertainment)
 "iOc" = (
-/obj/machinery/stasis{
+/obj/machinery/sleeper{
 	dir = 8
 	},
 /obj/machinery/defibrillator_mount/directional/north,
@@ -26105,10 +26117,8 @@
 /turf/closed/wall,
 /area/station/medical/treatment_center)
 "jts" = (
-/obj/structure/bed/pod{
-	desc = "An old medical bed, just waiting for replacement with something up to date.";
-	dir = 4;
-	name = "medical bed"
+/obj/machinery/stasis{
+	dir = 1
 	},
 /obj/machinery/defibrillator_mount/directional/west,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -32207,13 +32217,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/lower)
-"lyd" = (
-/obj/effect/turf_decal/trimline/blue/filled/corner{
-	dir = 1
-	},
-/obj/structure/closet/emcloset,
-/turf/open/floor/iron/dark,
-/area/station/command/bridge)
 "lyh" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -35836,6 +35839,10 @@
 /obj/machinery/airalarm/directional/south,
 /obj/structure/closet/secure_closet/security/science,
 /obj/item/clothing/mask/whistle,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
+/obj/item/clothing/head/bio_hood/security,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/science)
 "mKY" = (
@@ -37654,6 +37661,7 @@
 	dir = 10
 	},
 /obj/item/radio/intercom/directional/west,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "nsi" = (
@@ -38864,6 +38872,9 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
+/obj/item/storage/box/medicells,
+/obj/item/storage/box/medicells,
+/obj/item/gun/energy/cell_loaded/medigun/upgraded,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "nTg" = (
@@ -39155,6 +39166,7 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 5
 	},
+/obj/item/book/manual/wiki/mediguns,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "nYZ" = (
@@ -41287,6 +41299,7 @@
 	dir = 10
 	},
 /obj/structure/closet/secure_closet/warden,
+/obj/item/gun/energy/beam_rifle,
 /obj/item/radio/intercom/directional/west,
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -46130,6 +46143,10 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/pharmacy,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
+"qvU" = (
+/obj/machinery/harvester,
+/turf/open/floor/iron/dark,
+/area/station/medical/morgue)
 "qwq" = (
 /obj/structure/table/wood,
 /obj/item/radio/intercom,
@@ -50117,7 +50134,7 @@
 /turf/open/floor/plating/airless,
 /area/station/solars/port/aft)
 "rNl" = (
-/obj/machinery/stasis{
+/obj/machinery/sleeper{
 	dir = 4
 	},
 /obj/machinery/defibrillator_mount/directional/north,
@@ -51190,6 +51207,20 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/brig)
+"sgg" = (
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/closet/secure_closet/medical3,
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/storage/belt/medical,
+/obj/item/storage/briefcase/medicalgunset/standard,
+/turf/open/floor/iron/dark,
+/area/station/medical/storage)
 "sgu" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
@@ -60324,6 +60355,12 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/security/interrogation)
+"vxd" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/lavaland/surface)
 "vxe" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -66748,6 +66785,10 @@
 	dir = 6
 	},
 /obj/machinery/airalarm/directional/south,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
+/obj/item/clothing/head/bio_hood/security,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/medical)
 "xOP" = (
@@ -108775,16 +108816,16 @@ mEZ
 mEZ
 mEZ
 mEZ
-aRN
-aRN
 wgT
 wgT
 wgT
 wgT
-aRN
-aRN
-aRN
-aRN
+wgT
+wgT
+wgT
+wgT
+wgT
+wgT
 dDG
 aRN
 aRN
@@ -109555,7 +109596,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dhe
 dhe
@@ -109812,7 +109853,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dhe
@@ -110313,7 +110354,7 @@ vXM
 vXM
 aGg
 pHM
-aGg
+lal
 pHM
 vXM
 vXM
@@ -110570,7 +110611,7 @@ vXM
 vXM
 aGg
 pHM
-aGg
+lal
 pHM
 vXM
 vXM
@@ -110827,7 +110868,7 @@ pHM
 pHM
 aGg
 pHM
-aGg
+lal
 pHM
 jFx
 jFx
@@ -110841,9 +110882,9 @@ pHM
 unm
 dDG
 wgT
-aRN
 wgT
-aRN
+wgT
+wgT
 dDG
 dhe
 dhe
@@ -111084,7 +111125,7 @@ vXM
 vXM
 aGg
 pHM
-aGg
+lal
 pHM
 vXM
 vXM
@@ -111100,7 +111141,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -111357,7 +111398,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -111596,7 +111637,7 @@ vXM
 jFx
 pHM
 bGu
-aGg
+lal
 bGu
 lal
 bGu
@@ -111853,7 +111894,7 @@ vXM
 jFx
 vXM
 bGu
-aGg
+lal
 bGu
 lal
 bGu
@@ -112111,8 +112152,8 @@ jFx
 pHM
 bGu
 lal
-aGg
-aGg
+lal
+lal
 lal
 lal
 lal
@@ -112367,9 +112408,9 @@ vXM
 jFx
 vXM
 bGu
-aGg
+lal
 bGu
-aGg
+lal
 bGu
 vXM
 vXM
@@ -112624,9 +112665,9 @@ vXM
 jFx
 pHM
 bGu
-aGg
+lal
 bGu
-aGg
+lal
 lal
 bGu
 vXM
@@ -112881,10 +112922,10 @@ vXM
 jFx
 vXM
 bGu
-aGg
+lal
 bGu
 bGu
-aGg
+lal
 lal
 bGu
 vXM
@@ -113139,10 +113180,10 @@ jFx
 pHM
 bGu
 lal
-aGg
+lal
 bGu
 bGu
-aGg
+lal
 lal
 bGu
 lal
@@ -113156,7 +113197,7 @@ pHM
 pHM
 pHM
 pHM
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -113397,19 +113438,19 @@ vXM
 vXM
 bGu
 lal
-aGg
+lal
 bGu
 bGu
-aGg
-aGg
-aGg
-aGg
 lal
 lal
 lal
 lal
-aGg
-aGg
+lal
+lal
+lal
+lal
+lal
+lal
 lal
 lal
 lal
@@ -113655,7 +113696,7 @@ vXM
 vXM
 bGu
 lal
-aGg
+lal
 bGu
 bGu
 bGu
@@ -113913,12 +113954,12 @@ vXM
 vXM
 bGu
 lal
-aGg
-aGg
-aGg
 lal
-aGg
-aGg
+lal
+lal
+lal
+lal
+lal
 aGg
 aGg
 aGg
@@ -152247,7 +152288,7 @@ pxi
 lDK
 xAQ
 eTv
-lyd
+cfz
 pxi
 pxi
 njB
@@ -154121,11 +154162,11 @@ avE
 avE
 avE
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 avE
 efK
@@ -154378,11 +154419,11 @@ jhd
 jhd
 jhd
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 jhd
 efK
@@ -154635,11 +154676,11 @@ avE
 avE
 avE
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 avE
 efK
@@ -154883,20 +154924,20 @@ dDG
 dDG
 dDG
 dDG
+vxd
 wgT
-wgT
 eim
 eim
 eim
 eim
 eim
-wIP
-wIP
-wIP
 eim
 eim
 eim
-wIP
+eim
+eim
+eim
+eim
 eim
 jhd
 efK
@@ -155140,7 +155181,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -155149,11 +155190,11 @@ avE
 avE
 avE
 xdo
-wIP
+eim
 xdo
 eim
 xdo
-wIP
+eim
 xdo
 avE
 efK
@@ -155397,7 +155438,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -155405,12 +155446,12 @@ dDG
 jhd
 jhd
 jhd
-xdo
-wIP
 xdo
 eim
 xdo
-wIP
+eim
+xdo
+eim
 xdo
 jhd
 efK
@@ -155654,7 +155695,7 @@ dDG
 dDG
 dDG
 dDG
-wgT
+vxd
 dDG
 dDG
 dDG
@@ -155663,11 +155704,11 @@ avE
 avE
 avE
 xdo
-wIP
+eim
 xdo
 eim
 xdo
-wIP
+eim
 xdo
 jhd
 efK
@@ -155911,7 +155952,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -156168,7 +156209,7 @@ dDG
 dDG
 dDG
 dDG
-aRN
+wgT
 dDG
 dDG
 dDG
@@ -156425,7 +156466,7 @@ dDG
 dDG
 dDG
 dDG
-wgT
+vxd
 dDG
 dDG
 dDG
@@ -156691,11 +156732,11 @@ unm
 avE
 avE
 xdo
-wIP
+eim
 xdo
 eim
 xdo
-wIP
+eim
 xdo
 jhd
 efK
@@ -156948,11 +156989,11 @@ dDG
 jhd
 jhd
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 jhd
 efK
@@ -157205,11 +157246,11 @@ dDG
 jhd
 jhd
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 avE
 efK
@@ -157454,19 +157495,19 @@ dDG
 dDG
 dDG
 wgT
-aRN
-aRN
-aRN
 wgT
 wgT
 wgT
+vxd
+vxd
+vxd
+eim
+eim
+cJB
 wIP
-wIP
+cJB
 eim
-wIP
-eim
-eim
-eim
+cJB
 eim
 jhd
 efK
@@ -157699,17 +157740,17 @@ xJj
 nuI
 xJj
 gdf
+vxd
 wgT
-aRN
+vxd
 wgT
-aRN
+vxd
+vxd
+vxd
+wgT
+vxd
 wgT
 wgT
-aRN
-aRN
-wgT
-aRN
-aRN
 wgT
 dDG
 dDG
@@ -157721,9 +157762,9 @@ jhd
 jhd
 jhd
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 avE
 efK
@@ -157978,9 +158019,9 @@ jhd
 jhd
 jhd
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 jhd
 efK
@@ -158235,9 +158276,9 @@ unm
 avE
 avE
 xdo
-wIP
+eim
 xdo
-wIP
+eim
 xdo
 jhd
 efK
@@ -161787,7 +161828,7 @@ dhe
 xBk
 voA
 sKO
-sKO
+sgg
 bCp
 njJ
 vcv
@@ -162044,7 +162085,7 @@ dhe
 xBk
 voA
 sKO
-sKO
+sgg
 lKo
 mvL
 bdR
@@ -170015,7 +170056,7 @@ eQZ
 guQ
 kzA
 otA
-nvg
+qvU
 whz
 xtu
 xtu

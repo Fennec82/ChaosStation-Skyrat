@@ -55,15 +55,15 @@ HUMANS_NEED_SURNAMES
 #FORCE_RANDOM_NAMES
 
 ## Unhash this to turn on automatic reopening of a player's job if they suicide at roundstart
-#REOPEN_ROUNDSTART_SUICIDE_ROLES
+REOPEN_ROUNDSTART_SUICIDE_ROLES
 
 ## Unhash to enable reopening of command level positions
-#REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_POSITIONS
+REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_POSITIONS
 
 ## Define the delay for roles to be reopened after the round starts in seconds.
 ## Has a minimum delay of 30 seconds, though it's suggested to keep over 1 min
 ## If undefined, the delay defaults to 4 minutes.
-#REOPEN_ROUNDSTART_SUICIDE_ROLES_DELAY 240
+#REOPEN_ROUNDSTART_SUICIDE_ROLES_DELAY 0
 
 ## Unhash to enable a printed command report for reopened roles listing what roles were reopened.
 #REOPEN_ROUNDSTART_SUICIDE_ROLES_COMMAND_REPORT
@@ -111,7 +111,7 @@ BROTHER_OBJECTIVES_AMOUNT 2
 
 ## Uncomment to prohibit jobs that start with loyalty
 ## implants from being most antagonists.
-PROTECT_ROLES_FROM_ANTAGONIST
+#PROTECT_ROLES_FROM_ANTAGONIST
 
 ## Uncomment to prohibit assistants from becoming most antagonists.
 #PROTECT_ASSISTANT_FROM_ANTAGONIST
@@ -133,7 +133,7 @@ DYNAMIC_CONFIG_ENABLED
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
-ALLOW_RANDOM_EVENTS
+#ALLOW_RANDOM_EVENTS
 
 ## Multiplier for earliest start time of dangerous events.
 ## Set to 0 to make dangerous events avaliable from round start.
@@ -163,11 +163,11 @@ ALLOW_AI_MULTICAM
 ## AWAY MISSIONS ###
 
 ## Uncomment to load one of the missions from awaymissionconfig.txt or away_missions/ at roundstart.
-#ROUNDSTART_AWAY
+ROUNDSTART_AWAY
 
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
 ## 600 is one minute.
-GATEWAY_DELAY 18000
+GATEWAY_DELAY 3000
 
 ## The probability of the gateway mission being a config one
 CONFIG_GATEWAY_CHANCE 0
@@ -186,13 +186,13 @@ MINIMAL_ACCESS_THRESHOLD 20
 #JOBS_HAVE_MINIMAL_ACCESS
 
 ## Uncomment to give assistants maint access.
-#ASSISTANTS_HAVE_MAINT_ACCESS
+ASSISTANTS_HAVE_MAINT_ACCESS
 
 ## Uncoment to give security maint access. Note that if you dectivate JOBS_HAVE_MINIMAL_ACCESS security already gets maint from that.
-#SECURITY_HAS_MAINT_ACCESS
+SECURITY_HAS_MAINT_ACCESS
 
 ## Uncomment to give everyone maint access.
-#EVERYONE_HAS_MAINT_ACCESS
+EVERYONE_HAS_MAINT_ACCESS
 
 ## Comment this out this to make security officers spawn in departmental security posts
 #SEC_START_BRIG
@@ -206,7 +206,7 @@ DEPSEC_ACCESS_LEVEL 1
 
 ## GHOST INTERACTION ###
 ## Uncomment to let ghosts spin chairs. You may be wondering why this is a config option. Don't ask.
-#GHOST_INTERACTION
+GHOST_INTERACTION
 
 ## NEAR-DEATH EXPERIENCE ###
 ## Comment this out to disable mobs hearing ghosts when unconscious and very close to death
@@ -455,7 +455,7 @@ OVERFLOW_CAP -1
 #STARLIGHT
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
-#GREY_ASSISTANTS
+GREY_ASSISTANTS
 
 ##Limit Spell Choices##
 ## Uncomment to disallow wizards from using certain spells that may be too chaotic/fun for your playerbase
@@ -506,7 +506,7 @@ ARRIVALS_SHUTTLE_DOCK_WINDOW 55
 #ARRIVALS_SHUTTLE_REQUIRE_UNDOCKED
 
 ## Uncomment to prevent late join players from spawning if the arrivals shuttle is depressurized
-#ARRIVALS_SHUTTLE_REQUIRE_SAFE_LATEJOIN
+ARRIVALS_SHUTTLE_REQUIRE_SAFE_LATEJOIN
 
 ## How many wirechewing rodents you want to spawn on exposed maintenane wires at the start of the round. You may wish to set this to 0 if you're testing powernets.
 
@@ -520,13 +520,13 @@ MICE_ROUNDSTART 10
 ROUNDSTART_TRAITS
 
 ## Uncomment to disable human moods.
-#DISABLE_HUMAN_MOOD
+DISABLE_HUMAN_MOOD
 
 ## Enable night shifts ##
 #ENABLE_NIGHT_SHIFTS
 
 ## Enable randomized shift start times##
-#RANDOMIZE_SHIFT_TIME
+RANDOMIZE_SHIFT_TIME
 
 ## Sets shift time to server time at roundstart. Overridden by RANDOMIZE_SHIFT_TIME ##
 #SHIFT_TIME_REALTIME

@@ -8329,7 +8329,7 @@
 /turf/open/floor/plating,
 /area/station/science/xenobiology)
 "cyo" = (
-/obj/machinery/stasis{
+/obj/machinery/sleeper{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue/full,
@@ -18040,6 +18040,17 @@
 	name = "Kitchen Lockdown";
 	pixel_x = -25;
 	req_access = list("kitchen")
+	},
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/machinery/button/door/directional/north{
+	pixel_x = -25;
+	name = "Kitchen Lockdown";
+	req_access = list("kitchen");
+	id = "kitchencounter"
 	},
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /turf/open/floor/iron/kitchen/diagonal,
@@ -36059,6 +36070,10 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/effect/turf_decal/tile/red/full,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/medical)
 "kXO" = (
@@ -39767,6 +39782,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/paper/guides/jobs/atmos/turbine,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/disposal/incinerator)
 "mko" = (
@@ -53282,7 +53298,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "qsQ" = (
-/obj/machinery/stasis,
+/obj/machinery/sleeper{
+	dir = 8
+	},
 /obj/machinery/defibrillator_mount/directional/north,
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/large,
@@ -59830,6 +59848,29 @@
 /obj/item/reagent_containers/syringe,
 /obj/machinery/defibrillator_mount/directional/east,
 /obj/effect/turf_decal/tile/blue/full,
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/structure/table/glass,
+/obj/item/stack/medical/gauze{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/stack/medical/mesh{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/obj/item/stack/medical/suture,
+/obj/item/reagent_containers/glass/bottle/epinephrine,
+/obj/item/reagent_containers/glass/bottle/multiver{
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/syringe,
+/obj/machinery/defibrillator_mount/directional/east,
+/obj/effect/turf_decal/tile/blue/full,
+/obj/item/storage/medkit/surgery,
+/obj/item/storage/medkit/surgery,
 /turf/open/floor/iron/large,
 /area/station/medical/treatment_center)
 "svw" = (
@@ -61438,6 +61479,11 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/iron/dark,
 /area/mine/eva/lower)
+"sWk" = (
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/plating/snowed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "sWl" = (
 /obj/machinery/door/airlock/command{
 	name = "Chief Medical Officer"
@@ -62914,6 +62960,10 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/suit/bio_suit/security,
+/obj/item/clothing/head/bio_hood/security,
+/obj/item/clothing/head/bio_hood/security,
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science)
 "tvd" = (
@@ -69268,7 +69318,7 @@
 /area/station/engineering/atmos)
 "vtk" = (
 /obj/machinery/newscaster/directional/east,
-/obj/structure/bed/pod,
+/obj/machinery/stasis,
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/large,
 /area/station/medical/treatment_center)
@@ -224912,7 +224962,7 @@ xxB
 xxB
 xxB
 bln
-sEB
+tmR
 bln
 xxB
 xxB
@@ -225169,7 +225219,7 @@ tmR
 tmR
 tmR
 tmR
-sEB
+tmR
 tmR
 tmR
 tmR
@@ -225426,7 +225476,7 @@ xxB
 xxB
 xxB
 bln
-sEB
+tmR
 bln
 xxB
 xxB
@@ -225683,7 +225733,7 @@ bln
 bln
 bln
 bln
-sEB
+tmR
 bln
 bln
 bln
@@ -225940,7 +225990,7 @@ xxB
 xxB
 xxB
 bln
-sEB
+tmR
 bln
 xxB
 xxB
@@ -226097,17 +226147,17 @@ bln
 fbh
 tZf
 tmR
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+sWk
+tmR
+tmR
+tmR
+tmR
 tmR
 izw
 pVN
@@ -226197,7 +226247,7 @@ tmR
 tmR
 tmR
 tmR
-sEB
+tmR
 tmR
 tmR
 tmR
@@ -226454,7 +226504,7 @@ xxB
 xxB
 xxB
 bln
-sEB
+tmR
 bln
 xxB
 xxB
@@ -226711,7 +226761,7 @@ bln
 bln
 bln
 bln
-sEB
+tmR
 bln
 bln
 bln
@@ -226968,7 +227018,7 @@ xxB
 xxB
 xxB
 bln
-sEB
+tmR
 bln
 xxB
 xxB
@@ -227225,7 +227275,7 @@ tmR
 tmR
 tmR
 tmR
-sEB
+tmR
 tmR
 tmR
 tmR
@@ -227482,7 +227532,7 @@ xxB
 xxB
 xxB
 bln
-sEB
+tmR
 bln
 xxB
 xxB
@@ -227739,7 +227789,7 @@ bln
 bln
 bln
 bln
-sEB
+tmR
 bln
 bln
 bln
@@ -251026,17 +251076,17 @@ bln
 cnx
 tmR
 tmR
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
 tmR
 tmR
 tmR
@@ -259876,17 +259926,17 @@ tmR
 tmR
 tmR
 tmR
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
-sEB
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
+tmR
 tmR
 tmR
 cnx
