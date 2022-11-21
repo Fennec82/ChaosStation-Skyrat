@@ -48,10 +48,16 @@ endmap
 
 map blueshift
 	minplayers 0
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	votable
 endmap
 
 map voidraptor
 	maxplayers 100
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 	votable
 endmap
